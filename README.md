@@ -1,6 +1,6 @@
 ### Hi there! I am Gabriel Inácio 🖥️👋 
 
-I am completely passionate about technology, and looking to constantly evolve.
+I am completely passionate about technology, and I seek to constantly evolve.
 
 [![Gmail](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.link/uhxofs)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/gabriel.inaciooo/)
