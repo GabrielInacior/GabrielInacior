@@ -30,6 +30,7 @@ I am completely passionate about technology, and I seek to constantly evolve.
 
 ## About Me
 
-- ### Currently at a college studying about programming and technology
-- ### I completed 3 years of graduation in Mechanical Engineering at UNESP
-- ### Currently studying Html5, Css, Javascript, Angular Typescript, MySQL and Python
+- #### Currently at a college studying about programming and technology
+- #### I completed 3 years of graduation in Mechanical Engineering at UNESP
+- #### Currently studying Html5, Css, Javascript, Angular Typescript, MySQL and Python
+- #### I have soft skills focused on teamwork, leadership and communication
