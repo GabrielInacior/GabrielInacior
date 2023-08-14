@@ -6,11 +6,12 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-in%C3%A1cio-rodrigues-silva-072029220/)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=GabrielInacior&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Gabrielinacior&layout=compact)
 
 ## Technologies that i use in my daily life
 
 <div style="display: inline_block"><br/>
-    <img align="center" alt="Html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+    <img align="center" alt="Html5" src="	https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
     <img align="center" alt="Css" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
     <img align="center" alt="Saas" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white">
    <img align="center" alt="Javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
@@ -26,6 +27,8 @@
 
 Completely passionate about technology, and looking to constantly evolve.
 
-## About My Projects
+## About Me
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Gabrielinacior&layout=compact)
+- ### Currently at a college studying about programming and technology
+- ### I completed 3 years of graduation in Mechanical Engineering at UNESP
+- ### Currently studying Html5, Css, Javascript, Angular Typescript, MySQL and Python
