@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 About Me
+## <img src="https://img.icons8.com/fluency/24/rocket.png"/> About Me
 
 • Full-stack developer with 5+ years of experience  
 • Focused on scalable, production-ready applications  
@@ -16,7 +16,7 @@
 
 ---
 
-## 🌐 Portfolio & Contact
+## <img src="https://img.icons8.com/fluency/24/domain.png"/> Portfolio & Contact
 
 <p align="center">
   <a href="https://inaciodev.com.br/" target="_blank">
@@ -35,45 +35,93 @@
 
 ---
 
-## ⚡ Tech Stack
+## <img src="https://img.icons8.com/fluency/24/source-code.png"/> Tech Stack
 
-### 🖥️ Front-end
+### Front-end
 <p>
-  <img src="https://skillicons.dev/icons?i=vue,nuxt,react,flutter,html,css,sass,js,ts" />
-</p>
-
-### ⚙️ Back-end
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,spring" />
-</p>
-
-### 🗄️ Database
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb" />
-</p>
-
-### ☁️ DevOps & Tools
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,docker,redis,rabbitmq,linux" />
-</p>
-
----
-
-## 🧠 Architecture & Concepts
-
-<p>
-  <img src="https://img.shields.io/badge/Microservices-0A0A0A?style=for-the-badge&logo=databricks&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Monolith-1F1F1F?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/REST_API-02569B?style=for-the-badge&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/DDD-000000?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/BFF-4B0082?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/MVVM-FF4088?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/MVC-2196F3?style=for-the-badge"/>
+  <a href="https://vuejs.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=vue" />
+  </a>
+  <a href="https://nuxt.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=nuxt" />
+  </a>
+  <a href="https://react.dev/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=react" />
+  </a>
+  <a href="https://flutter.dev/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=flutter" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">
+    <img src="https://skillicons.dev/icons?i=html" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">
+    <img src="https://skillicons.dev/icons?i=css" />
+  </a>
+  <a href="https://sass-lang.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=sass" />
+  </a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img src="https://skillicons.dev/icons?i=js" />
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=ts" />
+  </a>
 </p>
 
 ---
 
-## 📊 GitHub Stats
+### Back-end
+<p>
+  <a href="https://nodejs.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=nodejs" />
+  </a>
+  <a href="https://expressjs.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=express" />
+  </a>
+  <a href="https://fastapi.tiangolo.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=fastapi" />
+  </a>
+  <a href="https://spring.io/projects/spring-boot" target="_blank">
+    <img src="https://skillicons.dev/icons?i=spring" />
+  </a>
+</p>
+
+---
+
+### Database
+<p>
+  <a href="https://www.postgresql.org/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=postgres" />
+  </a>
+  <a href="https://www.mongodb.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=mongodb" />
+  </a>
+</p>
+
+---
+
+### DevOps & Tools
+<p>
+  <a href="https://aws.amazon.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=aws" />
+  </a>
+  <a href="https://www.docker.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=docker" />
+  </a>
+  <a href="https://redis.io/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=redis" />
+  </a>
+  <a href="https://www.rabbitmq.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=rabbitmq" />
+  </a>
+  <a href="https://www.redhat.com/" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linux" />
+  </a>
+</p>
+
+---
+
+## <img src="https://img.icons8.com/fluency/24/combo-chart.png"/> GitHub Stats
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=GabrielInacior&show_icons=true&theme=tokyonight&hide_border=true"/>
@@ -82,7 +130,7 @@
 
 ---
 
-## 🔥 Activity Graph
+## <img src="https://img.icons8.com/fluency/24/activity-history.png"/> Activity Graph
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=GabrielInacior&theme=tokyo-night&hide_border=true"/>
@@ -90,14 +138,6 @@
 
 ---
 
-## 🧬 Extras (Cyberpunk Style)
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00F7FF&height=120&section=footer"/>
-</p>
-
----
-
-## ⚡ Mindset
+## <img src="https://img.icons8.com/fluency/24/flash-on.png"/> Mindset
 
 > Always building. Always improving. Always ready to make things happen.
