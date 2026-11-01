@@ -23,6 +23,7 @@
 
 <br/>
 
+<!-- ───────────────────────────── AI ───────────────────────────── -->
 <div align="center"><img src="assets/svg/tab_ai_orchestration.svg" alt="ai_orchestration.md" width="92%"></div>
 
 > I don't just *call* an LLM API — I build systems around them: **multiple agents working in parallel**, **MCP** tools, **local models running in containers**, and **AI wired straight into the OS and real processes**. The model interprets; the code decides.
@@ -48,33 +49,9 @@ const toolbox = {
 }
 ```
 
-#### 🚀 AI projects
-
-<div align="center">
-
-<img src="assets/svg/card_buscavagas.svg" width="100%" alt="BuscaVagas — AI job engine with local Hugging Face embeddings">
-<img src="assets/svg/card_labia.svg" width="100%" alt="LÁBIA — co-op voice heist game with local-LLM NPCs">
-<img src="assets/svg/card_inaciocyber.svg" width="100%" alt="InacioCyber — autonomous, 100% local pentest agent">
-<a href="https://github.com/GabrielInacior/FormataAI"><img src="assets/svg/card_formataai.svg" width="100%" alt="FormataAI — voice to formatted text (Whisper + GPT-4)"></a>
-
-</div>
-
-<div align="center">
-<details>
-<summary>&nbsp;🖥️&nbsp; <b>InacioCyber</b> — one agent, six hacker themes with CRT &amp; VHS effects &nbsp;</summary>
-<br/>
-<img src="assets/projects/inaciocyber_blackwall.png" width="100%" alt="InacioCyber — Blackwall (red) theme">
-<img src="assets/projects/inaciocyber_azul.png" width="100%" alt="InacioCyber — blue theme">
-<img src="assets/projects/inaciocyber_roxo.png" width="100%" alt="InacioCyber — purple theme">
-<img src="assets/projects/inaciocyber_amarelo.png" width="100%" alt="InacioCyber — amber theme">
-<img src="assets/projects/inaciocyber_temas.png" width="100%" alt="InacioCyber — settings: 6 themes + character-rain, CRT flicker and VHS effects">
-<br/>
-<sub>Captured with the UI running standalone (backend offline), so some panels show loading states.</sub>
-</details>
-</div>
-
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
+<!-- ─────────────────────── SOFTWARE ENGINEERING ─────────────────────── -->
 <div align="center"><img src="assets/svg/tab_engineering.svg" alt="engineering.ts" width="92%"></div>
 
 > **4+ years** building web, mobile, desktop and backend systems that actually reach production — with an ownership mindset that goes past writing code, into architecture, delivery and the people side.
@@ -100,17 +77,48 @@ data:     [PostgreSQL, Prisma, Redis,
 security: [OAuth2, JWT, 2FA]
 ```
 
-<sub>Freelance SaaS in production: <b>BarberCore</b> (multi-tenant barber CRM, WhatsApp + Stripe on AWS), <b>AirMessage</b> (cross-platform messaging), <b>ATN360</b> (custom SSR CMS, SEO 100, 5-language i18n).</sub>
+**🚢 Shipped to production**
+
+- **BarberCore** &nbsp;·&nbsp; 🔒 *private — live with paying clients* — multi-tenant barber-shop SaaS: scheduling, automated **WhatsApp**, loyalty, **Stripe** billing, on **AWS** + CI/CD
+- **Orbix / OrbixHub** &nbsp;·&nbsp; 🔒 *private* — shared auth + billing platform (OTP, tokens, financial integration) that powers the SaaS products
+- **AirMessage** &nbsp;·&nbsp; 🔒 *private* — cross-platform messaging SaaS (**Flutter**, Android + Windows): WhatsApp automation, client management, multi-channel **2FA**
+- **[ATN360](https://atn360.com.br)** &nbsp;·&nbsp; 🌐 *live* — institutional site + custom CMS from scratch: **Nuxt SSR**, SEO 100, i18n (5 languages), auto-blog via **Gemini AI**
 
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
-<div align="center"><img src="assets/svg/tab_gamedev.svg" alt="gamedev.gd" width="92%"></div>
+<!-- ───────────────────────── FEATURED PROJECTS ───────────────────────── -->
+<div align="center"><img src="assets/svg/tab_featured.svg" alt="featured.ts" width="92%"></div>
 
-> Same engineering rigor, in **Godot 4** — a pixel-art roguelite, a voice-driven detective game, and a portfolio you literally walk through.
+> The builds I'm proudest of — AI systems, autonomous agents and games. Each is a real, working project; cards are clickable only where there's a live link.
+
+#### 🤖 AI & agents
+
+<div align="center">
+
+<img src="assets/svg/card_buscavagas.svg" width="100%" alt="BuscaVagas — AI job engine with local Hugging Face embeddings">
+<img src="assets/svg/card_inaciocyber.svg" width="100%" alt="InacioCyber — autonomous, 100% local pentest agent">
+<a href="https://github.com/GabrielInacior/FormataAI"><img src="assets/svg/card_formataai.svg" width="100%" alt="FormataAI — voice to formatted text (Whisper + GPT-4)"></a>
+
+<details>
+<summary>&nbsp;🖥️&nbsp; <b>InacioCyber</b> — one agent, six hacker themes with CRT &amp; VHS effects &nbsp;</summary>
+<br/>
+<img src="assets/projects/inaciocyber_blackwall.png" width="100%" alt="InacioCyber — Blackwall (red) theme">
+<img src="assets/projects/inaciocyber_azul.png" width="100%" alt="InacioCyber — blue theme">
+<img src="assets/projects/inaciocyber_roxo.png" width="100%" alt="InacioCyber — purple theme">
+<img src="assets/projects/inaciocyber_amarelo.png" width="100%" alt="InacioCyber — amber theme">
+<img src="assets/projects/inaciocyber_temas.png" width="100%" alt="InacioCyber — settings: 6 themes + character-rain, CRT flicker and VHS effects">
+<br/>
+<sub>Captured with the UI running standalone (backend offline), so some panels show loading states.</sub>
+</details>
+
+</div>
+
+#### 🎮 Games & interactive
 
 <div align="center">
 
 <img src="assets/svg/card_fortress.svg" width="100%" alt="Fortress Chaos — 3D roguelite base-building + tower-defense">
+<img src="assets/svg/card_labia.svg" width="100%" alt="LÁBIA — co-op voice heist game with local-LLM NPCs">
 <a href="https://rumor.inaciodev.online"><img src="assets/svg/card_rumor.svg" width="100%" alt="RUMOR — multiplayer comic-noir detective game"></a>
 <a href="https://inaciodev.online"><img src="assets/svg/card_portfolio.svg" width="100%" alt="inaciodev.online — portfolio as a first-person 3D noir game"></a>
 
@@ -127,6 +135,7 @@ security: [OAuth2, JWT, 2FA]
 
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
+<!-- ───────────────────────────── SECURITY ───────────────────────────── -->
 <div align="center"><img src="assets/svg/tab_security.svg" alt="security.sh" width="92%"></div>
 
 > Security as a mindset, not an afterthought — from hardening production systems to building **authorized, local** offensive tooling to learn how attackers think.
@@ -137,12 +146,14 @@ security: [OAuth2, JWT, 2FA]
 
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
+<!-- ───────────────────────────── STACK ───────────────────────────── -->
 <div align="center"><img src="assets/svg/tab_stack.svg" alt="stack.json" width="92%"></div>
 
 <div align="center"><img src="assets/svg/stack_board.svg" alt="Tech stack — languages, frontend, backend, data, cloud/devops, AI, gamedev" width="92%"></div>
 
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
+<!-- ───────────────────────────── STATS ───────────────────────────── -->
 <div align="center"><img src="assets/svg/tab_github_stats.svg" alt="github_stats.sql" width="92%"></div>
 
 <div align="center">
@@ -156,6 +167,46 @@ security: [OAuth2, JWT, 2FA]
 
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
+<!-- ───────────────────────── MORE REPOSITORIES ───────────────────────── -->
+<div align="center"><img src="assets/svg/tab_repositories.svg" alt="repositories.sql" width="92%"></div>
+
+> Beyond the featured builds, my account holds **40+ repositories** — full-stack apps, CRUD systems, mobile apps and UI experiments. A sample (all links are public repos):
+
+**🗂️ Full-stack & CRUD apps**
+[FatecTeams](https://github.com/GabrielInacior/FatecTeams) ·
+[CrudSpringInacio](https://github.com/GabrielInacior/CrudSpringInacio) ·
+[OficinaInacioAdriano](https://github.com/GabrielInacior/OficinaInacioAdriano) ·
+[gerenciador](https://github.com/GabrielInacior/gerenciador) ·
+[dashboard](https://github.com/GabrielInacior/dashboard) ·
+[EudBudgetProject](https://github.com/GabrielInacior/EudBudgetProject) ·
+[AllProjects](https://github.com/GabrielInacior/AllProjects) ·
+[PadariaInacio](https://github.com/GabrielInacior/PadariaInacio) ·
+[ProjetoSilvio](https://github.com/GabrielInacior/ProjetoSilvio) ·
+[ProjetoJamesFatec](https://github.com/GabrielInacior/ProjetoJamesFatec)
+
+**📱 Mobile (Flutter)**
+[AppFatec](https://github.com/GabrielInacior/AppFatec) ·
+[AnkiAna](https://github.com/GabrielInacior/AnkiAna) ·
+[fatec_boer_app](https://github.com/GabrielInacior/fatec_boer_app)
+
+**🎨 Web & UI**
+[PortfolioFatec](https://github.com/GabrielInacior/PortfolioFatec) ·
+[sorvetes-inacio-pastel-ui](https://github.com/GabrielInacior/sorvetes-inacio-pastel-ui) ·
+[Parallax-Personal-Website](https://github.com/GabrielInacior/Parallax-Personal-Website) ·
+[Site-Fatec](https://github.com/GabrielInacior/Site-Fatec)
+
+**🖥️ Desktop & .NET**
+[ForecastTracker](https://github.com/GabrielInacior/ForecastTracker) ·
+[.Net-Calculator](https://github.com/GabrielInacior/.Net-Calculator) ·
+[Marcador-de-Truco](https://github.com/GabrielInacior/Marcador-de-Truco)
+
+<div align="center">
+<a href="https://github.com/GabrielInacior?tab=repositories"><img src="https://img.shields.io/badge/Browse_all_repositories-→-9fd0ff?style=for-the-badge&labelColor=05091a&logo=github&logoColor=9fd0ff"></a>
+</div>
+
+<div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
+
+<!-- ───────────────────────────── CONNECT ───────────────────────────── -->
 <div align="center"><img src="assets/svg/tab_connect.svg" alt="connect.json" width="92%"></div>
 
 <!-- JSON blocks stay left-aligned, like a real editor -->

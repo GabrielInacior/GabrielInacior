@@ -43,12 +43,13 @@ def tab(fname, accent, comment, icon):
     return fname
 
 tabs = [
- ("ai_orchestration.md", ACCENT, "// real AI work: agents, MCPs, local models in containers", "✦"),
- ("engineering.ts",      CYAN,   "// long-time dev: architecture, SaaS, real-time systems", "{}"),
- ("gamedev.gd",          "#ff8a5c", "// adventuring into games", "▶"),
+ ("ai_orchestration.md", ACCENT, "// how I work with AI: agents, MCPs, local models in containers", "✦"),
+ ("engineering.ts",      CYAN,   "// long-time dev: architecture, SaaS, production apps", "{}"),
+ ("featured.ts",         "#ff8a5c", "// flagship builds — AI, agents & games", "★"),
  ("security.sh",         GREEN,  "// cybersecurity: concepts + authorized offensive automation", "⌘"),
  ("stack.json",          "#c7b3ff", "// daily drivers", "≡"),
  ("github_stats.sql",    PINK,   "// what the commits say", "∑"),
+ ("repositories.sql",    "#9fd0ff", "// more on my GitHub — apps · CRUD · UIs", "⎙"),
  ("connect.json",        ACCENT, "// let's build something", "⌁"),
 ]
 for a in tabs: tab(*a)
