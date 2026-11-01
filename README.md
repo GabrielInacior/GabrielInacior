@@ -202,11 +202,7 @@ security: [OAuth2, JWT, 2FA, rate limiting]
      .github/workflows/stats.yml, so they always render and stay current. -->
 <img src="assets/svg/stats_card.svg" width="47%" alt="GitHub activity — 1,200+ commits this year, 79 PRs, 40 repos" />
 &nbsp;
-<img src="assets/svg/stats_langs.svg" width="47%" alt="Most used languages — TypeScript, Dart, Vue, Python, GDScript" />
-
-<br/><br/>
-
-<img src="https://raw.githubusercontent.com/GabrielInacior/GabrielInacior/output/snake.svg" alt="contribution snake eating the graph" width="92%" />
+<img src="assets/svg/stats_langs.svg" width="47%" alt="Most used languages — TypeScript, Dart, Vue, Python" />
 
 </div>
 
