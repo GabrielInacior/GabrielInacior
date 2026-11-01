@@ -56,6 +56,8 @@ const toolbox = {
 
 > **4+ years** building web, mobile, desktop and backend systems that actually reach production — with an ownership mindset that goes past writing code, into architecture, delivery and the people side.
 
+<div align="center"><img src="assets/svg/arch_diagram.svg" alt="Systems architecture — clients (web/mobile) → API/BFF + auth → services (realtime, billing, queues) → data (PostgreSQL, Redis, Mongo), on AWS/Docker/CI-CD" width="92%"></div>
+
 **🏛️ What I bring**
 
 - **Core developer & tech lead** at a SaaS company in the Brazilian **public-procurement** sector — led a 3-dev team across **6+ large-scale projects**, owning architecture and sprint planning
@@ -65,24 +67,9 @@ const toolbox = {
 - Shipped a **2-week sprint in 3 days**; led a full **Vue → React** migration in **under a week, zero production regressions**
 - Owned **CI/CD** (GitLab CI), spec-driven development, full **QA → Staging → Production**
 
-```yaml
-# ☁️ DevOps · Cloud · Linux
-cloud:    [AWS, EC2, S3, SQS, SNS]
-runtime:  [Docker, Linux, orchestration]
-ci_cd:    [GitLab CI, GitHub Actions]
-backend:  [Node, Fastify, FastAPI,
-           Spring Boot, ASP.NET]
-data:     [PostgreSQL, Prisma, Redis,
-           RabbitMQ, MongoDB]
-security: [OAuth2, JWT, 2FA]
-```
+<div align="center"><img src="assets/svg/prod_apps.svg" alt="Apps serving real users — BarberCore (paying clients), Orbix/OrbixHub, AirMessage (private), ATN360 (live)" width="92%"></div>
 
-**🚢 Shipped to production**
-
-- **BarberCore** &nbsp;·&nbsp; 🔒 *private — live with paying clients* — multi-tenant barber-shop SaaS: scheduling, automated **WhatsApp**, loyalty, **Stripe** billing, on **AWS** + CI/CD
-- **Orbix / OrbixHub** &nbsp;·&nbsp; 🔒 *private* — shared auth + billing platform (OTP, tokens, financial integration) that powers the SaaS products
-- **AirMessage** &nbsp;·&nbsp; 🔒 *private* — cross-platform messaging SaaS (**Flutter**, Android + Windows): WhatsApp automation, client management, multi-channel **2FA**
-- **[ATN360](https://atn360.com.br)** &nbsp;·&nbsp; 🌐 *live* — institutional site + custom CMS from scratch: **Nuxt SSR**, SEO 100, i18n (5 languages), auto-blog via **Gemini AI**
+<sub>&nbsp;&nbsp;🌐 <b><a href="https://atn360.com.br">ATN360</a></b> is live · the others are private products (paying clients / internal platform).</sub>
 
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
@@ -95,9 +82,9 @@ security: [OAuth2, JWT, 2FA]
 
 <div align="center">
 
-<img src="assets/svg/card_buscavagas.svg" width="100%" alt="BuscaVagas — AI job engine with local Hugging Face embeddings">
-<img src="assets/svg/card_inaciocyber.svg" width="100%" alt="InacioCyber — autonomous, 100% local pentest agent">
-<a href="https://github.com/GabrielInacior/FormataAI"><img src="assets/svg/card_formataai.svg" width="100%" alt="FormataAI — voice to formatted text (Whisper + GPT-4)"></a>
+<img src="assets/svg/card_buscavagas.svg" width="410" alt="BuscaVagas — AI job engine with local Hugging Face embeddings">
+<img src="assets/svg/card_inaciocyber.svg" width="410" alt="InacioCyber — autonomous, 100% local pentest agent">
+<a href="https://github.com/GabrielInacior/FormataAI"><img src="assets/svg/card_formataai.svg" width="410" alt="FormataAI — voice to formatted text (Whisper + GPT-4)"></a>
 
 <details>
 <summary>&nbsp;🖥️&nbsp; <b>InacioCyber</b> — one agent, six hacker themes with CRT &amp; VHS effects &nbsp;</summary>
@@ -117,10 +104,10 @@ security: [OAuth2, JWT, 2FA]
 
 <div align="center">
 
-<img src="assets/svg/card_fortress.svg" width="100%" alt="Fortress Chaos — 3D roguelite base-building + tower-defense">
-<img src="assets/svg/card_labia.svg" width="100%" alt="LÁBIA — co-op voice heist game with local-LLM NPCs">
-<a href="https://rumor.inaciodev.online"><img src="assets/svg/card_rumor.svg" width="100%" alt="RUMOR — multiplayer comic-noir detective game"></a>
-<a href="https://inaciodev.online"><img src="assets/svg/card_portfolio.svg" width="100%" alt="inaciodev.online — portfolio as a first-person 3D noir game"></a>
+<img src="assets/svg/card_fortress.svg" width="410" alt="Fortress Chaos — 3D roguelite base-building + tower-defense">
+<img src="assets/svg/card_labia.svg" width="410" alt="LÁBIA — co-op voice heist game with local-LLM NPCs">
+<a href="https://rumor.inaciodev.online"><img src="assets/svg/card_rumor.svg" width="410" alt="RUMOR — multiplayer comic-noir detective game"></a>
+<a href="https://inaciodev.online"><img src="assets/svg/card_portfolio.svg" width="410" alt="inaciodev.online — portfolio as a first-person 3D noir game"></a>
 
 <details>
 <summary>&nbsp;📸&nbsp; more game shots &nbsp;</summary>
@@ -160,8 +147,8 @@ security: [OAuth2, JWT, 2FA]
 
 <!-- Custom, self-hosted stat cards (noir-neon theme) — regenerated daily by
      .github/workflows/stats.yml, so they always render and stay current. -->
-<img src="assets/svg/stats_card.svg" width="100%" alt="GitHub activity — 1,200+ commits this year, 79 PRs" />
-<img src="assets/svg/stats_langs.svg" width="100%" alt="Most used languages — TypeScript, Dart, Vue, Python" />
+<img src="assets/svg/stats_card.svg" width="410" alt="GitHub activity — 1,200+ commits this year, 79 PRs" />
+<img src="assets/svg/stats_langs.svg" width="410" alt="Most used languages — TypeScript, Dart, Vue, Python" />
 
 </div>
 
