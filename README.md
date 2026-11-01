@@ -64,32 +64,12 @@ const stack = {
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<img src="assets/projects/buscavagas.png" width="100%" alt="BuscaVagas dashboard">
-<img src="assets/projects/buscavagas_kanban.png" width="100%" alt="BuscaVagas kanban board">
-<b>BuscaVagas</b> — <sub>🔒 private</sub><br/>
-<sub>AI job-hunting engine. <b>Local Hugging Face embeddings</b> rank thousands of jobs by real fit; the best go to an LLM. Multi-source scraping, a <b>realtime</b> dashboard (WebSockets), tailored résumés + cover letters, and an apply-assist agent. Runs 100% local via Docker — works with no API key.</sub><br/>
-<sub><code>TypeScript</code> · <code>Nuxt</code> · <code>Fastify</code> · <code>BullMQ</code> · <code>HF Transformers</code> · <code>Postgres</code> · <code>Docker</code></sub>
-</td>
-<td width="50%" valign="top">
-<img src="assets/projects/labia_scene.png" width="100%" alt="LÁBIA — neon nightclub scene with an AI-driven bouncer NPC">
-<img src="assets/projects/labia_logo.png" width="52%" alt="LÁBIA logo"><br/>
-<b>LÁBIA</b> — <sub>🔒 private</sub><br/>
-<sub>Co-op comedy <b>heist game you play with your real voice</b>. NPCs are driven by a <b>local LLM</b> + speech-to-text: they understand what you say, get annoyed, remember, and call security. Runs offline, in PT/EN/ES. The AI acts; the code rules.</sub><br/>
-<sub><code>Godot</code> · <code>Local LLM</code> · <code>Whisper/STT</code> · <code>multiplayer</code></sub>
-</td>
+<td width="50%"><img src="assets/svg/card_buscavagas.svg" width="100%" alt="BuscaVagas — AI job engine with local Hugging Face embeddings"></td>
+<td width="50%"><img src="assets/svg/card_labia.svg" width="100%" alt="LÁBIA — co-op voice heist game with local-LLM NPCs"></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<b>🛡️ InacioCyber</b> — <sub>🔒 private</sub><br/>
-<sub>An <b>autonomous pentest agent that runs 100% locally</b> (Qwen via Ollama). You chat in a terminal-style UI, declare a target <b>you own or are authorized to test</b>, and the agent chains real security tooling for recon, enumeration and code-repo auditing. Authorized, offline, educational by design.</sub><br/>
-<sub><code>Python</code> · <code>Ollama</code> · <code>Qwen</code> · <code>Docker</code> · <code>security tooling</code></sub>
-</td>
-<td width="50%" valign="top">
-<b>🎙️ FormataAI</b> — <sub><a href="https://github.com/GabrielInacior/FormataAI">repo</a></sub><br/>
-<sub>Mobile app that turns a voice recording into a formatted message, document or summary — <b>Whisper</b> transcription + <b>GPT-4</b> with careful prompt design for consistent structured output. Built as my final graduation project (TCC).</sub><br/>
-<sub><code>Flutter</code> · <code>OpenAI Whisper</code> · <code>GPT-4</code> · <code>Node.js</code> · <code>AWS</code></sub>
-</td>
+<td width="50%"><img src="assets/svg/card_inaciocyber.svg" width="100%" alt="InacioCyber — autonomous, 100% local pentest agent"></td>
+<td width="50%"><a href="https://github.com/GabrielInacior/FormataAI"><img src="assets/svg/card_formataai.svg" width="100%" alt="FormataAI — voice to formatted text (Whisper + GPT-4)"></a></td>
 </tr>
 </table>
 
@@ -137,44 +117,33 @@ security: [OAuth2, JWT, 2FA, rate limiting]
 
 <div align="center"><img src="assets/svg/tab_gamedev.svg" alt="gamedev.gd" width="92%"></div>
 
-> Applying the same engineering rigor to **Godot 4** — pixel-art roguelites, voice-driven multiplayer, and a portfolio you can walk through.
-
-#### ⚔️ Fortress Chaos &nbsp;<sub>🔒 private · Alpha · Godot 4.7</sub>
-
-<sub>A 3D low-poly <b>roguelite</b> mixing base-building and tower-defense: raise the fortress, pick every stone, survive the chaos. Hundreds of units on screen, a campaign map with biomes and climates, build synergies and a progression shop.</sub>
+> Same engineering rigor, in **Godot 4** — a pixel-art roguelite, a voice-driven detective game, and a portfolio you literally walk through.
 
 <table>
 <tr>
-<td width="50%"><img src="assets/projects/fortresschaos.png" width="100%" alt="Fortress Chaos key art"></td>
-<td width="50%"><img src="assets/projects/fortresschaos_horda.png" width="100%" alt="Fortress Chaos — horde battle in the snow"></td>
-</tr>
-<tr>
-<td width="50%"><img src="assets/projects/fortresschaos_menu.png" width="100%" alt="Fortress Chaos main menu"></td>
-<td width="50%"><img src="assets/projects/fortresschaos_mapa.png" width="100%" alt="Fortress Chaos campaign map"></td>
+<td width="50%"><img src="assets/svg/card_fortress.svg" width="100%" alt="Fortress Chaos — 3D roguelite base-building + tower-defense"></td>
+<td width="50%"><a href="https://rumor.inaciodev.online"><img src="assets/svg/card_rumor.svg" width="100%" alt="RUMOR — multiplayer comic-noir detective game"></a></td>
 </tr>
 </table>
 
-#### 🕵️ RUMOR &nbsp;<sub><a href="https://rumor.inaciodev.online">play live ↗</a></sub>
+<div align="center"><a href="https://inaciodev.online"><img src="assets/svg/card_portfolio.svg" width="66%" alt="inaciodev.online — portfolio as a first-person 3D noir game"></a></div>
 
-<sub>A comic-noir <b>multiplayer detective game</b> for the classroom: explore in 3D, interrogate suspects, connect the clues on a corkboard with red string, and crack the case together.</sub>
-
+<div align="center">
+<details>
+<summary>&nbsp;📸&nbsp; more game shots &nbsp;</summary>
+<br/>
 <table>
 <tr>
-<td width="50%"><a href="https://rumor.inaciodev.online"><img src="assets/projects/rumor_banner.png" width="100%" alt="RUMOR key art"></a></td>
-<td width="50%"><a href="https://rumor.inaciodev.online"><img src="assets/projects/rumor_telas.png" width="100%" alt="RUMOR gameplay screens: explore, interrogate, connect clues, share"></a></td>
+<td width="50%"><img src="assets/projects/fortresschaos_horda.png" width="100%" alt="Fortress Chaos — horde in the snow"></td>
+<td width="50%"><img src="assets/projects/fortresschaos_menu.png" width="100%" alt="Fortress Chaos — main menu"></td>
 </tr>
-</table>
-
-#### 🌃 inaciodev.online &nbsp;<sub>portfolio as a 3D noir game · WIP</sub>
-
-<table>
 <tr>
-<td width="62%"><img src="assets/projects/portfolio_elenco.png" width="100%" alt="portfolio-noir 3D character cast (work in progress)"></td>
-<td width="38%" valign="middle">
-<sub>My <b>portfolio is itself a first-person 3D noir game</b> (Godot, web-exported): walk a neon city and meet the projects in person. The 3D cast above is a work-in-progress render from the project. → <a href="https://inaciodev.online"><b>inaciodev.online</b></a></sub>
-</td>
+<td width="50%"><img src="assets/projects/fortresschaos_mapa.png" width="100%" alt="Fortress Chaos — campaign map"></td>
+<td width="50%"><img src="assets/projects/rumor_telas.png" width="100%" alt="RUMOR — gameplay screens"></td>
 </tr>
 </table>
+</details>
+</div>
 
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
