@@ -64,7 +64,7 @@ s.append(f'<rect x="1" y="44" width="{W-2}" height="{H-45}" fill="url(#dots)" op
 # title bar
 s.append(f'<rect x="1" y="1" width="{W-2}" height="44" rx="14" fill="{TITLE}"/><rect x="1" y="30" width="{W-2}" height="15" fill="{TITLE}"/>')
 for i,c in enumerate(["#e2384f",ACCENT,GREEN]): s.append(f'<circle cx="{28+i*20}" cy="23" r="5.5" fill="{c}"/>')
-s.append(f'<text x="{W/2}" y="28" text-anchor="middle" font-family="JBM,monospace" font-size="14" fill="{MUTED}">~/stack — pinned, not generated</text>')
+s.append(f'<text x="{W/2}" y="28" text-anchor="middle" font-family="JBM,monospace" font-size="14" fill="{MUTED}">~/stack · pinned, not generated</text>')
 # handwritten accent note (rotated), top-right
 s.append(f'<g transform="translate({W-150},70) rotate(-7)"><text font-family="Marker,cursive" font-size="20" fill="{ACCENT}">built · shipped</text><text y="22" font-family="Marker,cursive" font-size="20" fill="{PINK}">· repeated</text></g>')
 

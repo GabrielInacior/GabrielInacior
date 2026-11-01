@@ -57,7 +57,9 @@ def shell(w, h, label):
 def node(x, y, w, h, acc, lines, delay=0.0):
     s=[f'<g class="cin" style="animation-delay:{delay:.2f}s" filter="url(#sh)">']
     s.append(f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="9" fill="#0e1636" stroke="{acc}" stroke-opacity="0.6"/>')
-    s.append(f'<rect x="{x}" y="{y}" width="4" height="{h}" rx="2" fill="{acc}"/>')
+    # handcrafted dossier corner ticks instead of a left accent bar
+    s.append(f'<path d="M {x+3} {y+13} L {x+3} {y+7} Q {x+3} {y+3} {x+7} {y+3} L {x+13} {y+3}" stroke="{acc}" stroke-width="1.7" fill="none" stroke-linecap="round"/>')
+    s.append(f'<path d="M {x+w-3} {y+h-13} L {x+w-3} {y+h-7} Q {x+w-3} {y+h-3} {x+w-7} {y+h-3} L {x+w-13} {y+h-3}" stroke="{acc}" stroke-width="1.7" fill="none" stroke-linecap="round" opacity="0.7"/>')
     ty=y+(h-len(lines)*16)/2+13
     for i,(txt,strong) in enumerate(lines):
         fam="JBMB" if strong else "JBM"; col=TEXT if strong else MUTED; sz=13 if strong else 11.5
@@ -73,7 +75,7 @@ def connect(x1,y1,x2,y2,acc,delay=0.0):
 
 def arch():
     W,H=900,372
-    s=shell(W,H,"~/architecture — systems I design & ship")
+    s=shell(W,H,"~/architecture · systems I design and ship")
     cols=[("CLIENTS",CYAN,74,214),("API · BFF",ACCENT,296,436),("SERVICES",GREEN,520,660),("DATA",PINK,716,872)]
     # tier labels
     for name,acc,x0,x1 in cols:
@@ -131,21 +133,22 @@ def status(x,y,kind):
     return "".join(s), w
 
 APPS=[
- ("BarberCore",ACCENT,"clients","Multi-tenant barber-shop SaaS — scheduling, WhatsApp, loyalty, Stripe billing",["Node","PostgreSQL","Stripe","AWS","CI/CD"]),
+ ("BarberCore",ACCENT,"clients","Multi-tenant barber-shop SaaS: scheduling, WhatsApp, loyalty, Stripe billing",["Node","PostgreSQL","Stripe","AWS","CI/CD"]),
  ("Orbix · OrbixHub",PURPLE,"private","Shared auth + billing platform (OTP, tokens, finance) powering the SaaS",["Fastify","Auth","OTP","Billing"]),
- ("AirMessage",CYAN,"private","Cross-platform messaging SaaS — WhatsApp automation, client management",["Flutter","2FA","WhatsApp","AWS"]),
- ("ATN360",GREEN,"live","Institutional site + custom CMS from scratch — SEO 100, i18n, AI blog",["Nuxt SSR","SEO 100","i18n","Gemini"]),
+ ("AirMessage",CYAN,"private","Cross-platform messaging SaaS: WhatsApp automation and client management",["Flutter","2FA","WhatsApp","AWS"]),
+ ("ATN360",GREEN,"live","Institutional site and custom CMS, from scratch: SEO 100, i18n, AI blog",["Nuxt SSR","SEO 100","i18n","Gemini"]),
 ]
 
 def prod():
     W=900; RH=84; top=58; H=top+len(APPS)*RH+16
-    s=shell(W,H,"~/production — apps serving real users")
+    s=shell(W,H,"~/production · apps serving real users")
     for i,(name,acc,kind,tag,tags) in enumerate(APPS):
         y=top+i*RH
         if i: s.append(f'<line x1="28" y1="{y}" x2="{W-28}" y2="{y}" stroke="{BORDER}" stroke-opacity="0.7"/>')
         s.append(f'<g class="cin" style="animation-delay:{i*0.08:.2f}s">')
-        s.append(f'<rect x="20" y="{y+16}" width="5" height="46" rx="2.5" fill="{acc}"/>')
         s.append(f'<text x="40" y="{y+40}" font-family="Bebas,sans-serif" font-size="27" letter-spacing="1" fill="{acc}">{esc(name.upper())}</text>')
+        # hand-drawn marker underline under the name (no left bar)
+        s.append(f'<path d="M 40 {y+47} q {int(len(name)*6.6)} -2 {int(len(name)*13.2)} 0" stroke="{acc}" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.8"/>')
         st,sw=status(40+int(len(name)*13.0)+18,y+18,kind)
         s.append(st)
         s.append(f'<text x="40" y="{y+58}" font-family="{MONO}" font-size="12.5" fill="{MUTED}">{esc(tag)}</text>')

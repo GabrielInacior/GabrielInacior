@@ -64,7 +64,7 @@ def voice_illu(x, y, w, h, acc):
         amp=(math.sin(i*0.5)*0.5+0.5)*(h*0.22)+6
         bx=x+30+i*bw
         s.append(f'<rect x="{bx:.1f}" y="{cy-amp:.1f}" width="{bw*0.55:.1f}" height="{2*amp:.1f}" rx="2" fill="{CYAN if i%2 else acc}" opacity="{0.5+0.5*(i/n):.2f}"/>')
-    s.append(f'<text x="{x+30}" y="{y+h-54}" font-family="JBM,monospace" font-size="13" fill="{GREEN}">🎙  voice  ──▶  Whisper  ──▶  GPT-4</text>')
+    s.append(f'<text x="{x+30}" y="{y+h-54}" font-family="JBM,monospace" font-size="13" fill="{GREEN}">voice  →  Whisper  →  GPT-4</text>')
     s.append(f'<rect x="{x+30}" y="{y+h-40}" width="{w-60}" height="26" rx="6" fill="#0a1226"/>')
     s.append(f'<text x="{x+40}" y="{y+h-22}" font-family="JBM,monospace" font-size="12.5" fill="{MUTED}">› formatted document ✓</text>')
     return "".join(s)
@@ -93,7 +93,7 @@ def card(key, title, kind, acc, tagline, tags, status, img=None, jpeg=True, illu
     kw=int(len(kind)*7.6)+22
     s.append(f'<rect x="{W-PAD-kw}" y="{PAD+8}" width="{kw}" height="24" rx="12" fill="{acc}" opacity="0.14" stroke="{acc}" stroke-opacity="0.5"/>')
     s.append(f'<text x="{W-PAD-kw/2}" y="{PAD+24.5}" text-anchor="middle" font-family="JBMB,monospace" font-size="11.5" font-weight="700" fill="{acc}" letter-spacing="1">{esc(kind)}</text>')
-    stt = {"private":("🔒 private",COMMENT),"live":("● live",GREEN),"repo":("‹ repo ›",CYAN),"wip":("◴ WIP",ACCENT),"alpha":("α Alpha",ACCENT)}.get(status,(status,MUTED))
+    stt = {"private":("private",COMMENT),"live":("● live",GREEN),"repo":("‹ repo ›",CYAN),"wip":("◴ WIP",ACCENT),"alpha":("α Alpha",ACCENT)}.get(status,(status,MUTED))
     s.append(f'<text x="{W-PAD-kw-14}" y="{PAD+24.5}" text-anchor="end" font-family="JBM,monospace" font-size="12" fill="{stt[1]}">{esc(stt[0])}</text>')
     # image / illustration (framed)
     if uri:

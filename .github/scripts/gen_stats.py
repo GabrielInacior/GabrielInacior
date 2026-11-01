@@ -82,10 +82,10 @@ def kpi_card(st):
     for i,(val,lab,col) in enumerate(tiles):
         cx=x0+(i%3)*(cw+gx); cy=y0+(i//3)*(ch+gy)
         s.append(f'<g class="pop" style="animation-delay:{i*0.07}s"><rect x="{cx}" y="{cy}" width="{cw}" height="{ch}" rx="9" fill="#0a1230" stroke="{BORDER}"/>')
-        s.append(f'<rect x="{cx}" y="{cy}" width="3" height="{ch}" rx="2" fill="{col}"/>')
         s.append(f'<text x="{cx+16}" y="{cy+34}" font-family="JBMB,monospace" font-size="26" font-weight="700" fill="{col}">{esc(val)}</text>')
+        s.append(f'<rect x="{cx+16}" y="{cy+40}" width="28" height="3" rx="1.5" fill="{col}"/>')
         s.append(f'<text x="{cx+16}" y="{cy+54}" font-family="JBM,monospace" font-size="12" fill="{MUTED}">{esc(lab)}</text></g>')
-    s.append(f'<text x="26" y="296" font-family="JBM,monospace" font-size="11.5" fill="{COMMENT}">-- {st["commits"]:,} commits this year · public + private · auto-updated daily</text>')
+    s.append(f'<text x="26" y="296" font-family="JBM,monospace" font-size="11.5" fill="{COMMENT}">{st["commits"]:,} commits this year · public + private · auto-updated daily</text>')
     s.append("</svg>"); (OUT/"stats_card.svg").write_text("".join(s),encoding="utf-8")
 
 def langs_card(st):

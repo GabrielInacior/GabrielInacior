@@ -24,7 +24,6 @@ def tab(fname, accent, comment, icon):
     # active tab
     tw = 34 + len(fname)*10.4 + 26
     s.append(f'<rect x="10" y="9" width="{tw}" height="44" rx="8" fill="{EDITOR}" stroke="#1b2550"/>')
-    s.append(f'<rect x="10" y="9" width="3.5" height="44" rx="2" fill="{accent}"/>')
     s.append(f'<text x="30" y="37" font-family="{MONO}" font-size="16" fill="{accent}">{icon}</text>')
     s.append(f'<text x="52" y="37" font-family="{MONO}" font-size="16.5" font-weight="700" fill="{TEXT}">{esc(fname)}</text>')
     s.append(f'<circle cx="{10+tw-18}" cy="31" r="4.2" fill="{accent}"/>')
@@ -45,11 +44,11 @@ def tab(fname, accent, comment, icon):
 tabs = [
  ("ai_orchestration.md", ACCENT, "// how I work with AI: agents, MCPs, local models in containers", "✦"),
  ("engineering.ts",      CYAN,   "// long-time dev: architecture, SaaS, production apps", "{}"),
- ("featured.ts",         "#ff8a5c", "// flagship builds — AI, agents & games", "★"),
+ ("featured.ts",         "#ff8a5c", "// stuff I'm proud of: AI, agents, games", "★"),
  ("security.sh",         GREEN,  "// cybersecurity: concepts + authorized offensive automation", "⌘"),
  ("stack.json",          "#c7b3ff", "// daily drivers", "≡"),
  ("github_stats.sql",    PINK,   "// what the commits say", "∑"),
- ("repositories.sql",    "#9fd0ff", "// more on my GitHub — apps · CRUD · UIs", "⎙"),
+ ("repositories.sql",    "#9fd0ff", "// more on my GitHub: apps, CRUD, UIs", "⎙"),
  ("connect.json",        ACCENT, "// let's build something", "⌁"),
 ]
 for a in tabs: tab(*a)

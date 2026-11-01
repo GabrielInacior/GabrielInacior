@@ -46,7 +46,7 @@ def escape(s):
 # editor code lines (x of code start = 360, gutter numbers at 338)
 CX = 362
 code_lines = [
-    [("// who am i ", COMMENT), ("— a software engineer who treats AI as a system, not a toy", COMMENT)],
+    [("// who am i ", COMMENT), (": a software engineer who treats AI as a system, not a toy", COMMENT)],
     [("const ", KEYWORD), ("gabriel", ACCENT), (" = ", PUNCT), ("{", PUNCT)],
     [("  role", PROP), (": ", PUNCT), ('"Software Engineer"', STRING), (",  ", PUNCT), ("// 4+ yrs · tech lead · production architecture", COMMENT)],
     [("  stack", PROP), (": [", PUNCT), ('"TypeScript"', STRING), (", ", PUNCT), ('"Vue"', STRING), (", ", PUNCT), ('"Node"', STRING), (", ", PUNCT), ('"Flutter"', STRING), (", ", PUNCT), ('"PostgreSQL"', STRING), (", ", PUNCT), ('"AWS"', STRING), ("],", PUNCT)],
