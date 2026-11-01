@@ -73,6 +73,27 @@ const stack = {
 </tr>
 </table>
 
+<div align="center">
+<details>
+<summary>&nbsp;🖥️&nbsp; <b>InacioCyber</b> — one agent, six hacker themes with CRT &amp; VHS effects &nbsp;</summary>
+<br/>
+<table>
+<tr>
+<td width="50%"><img src="assets/projects/inaciocyber_blackwall.png" width="100%" alt="InacioCyber — Blackwall (red) theme"></td>
+<td width="50%"><img src="assets/projects/inaciocyber_azul.png" width="100%" alt="InacioCyber — blue theme"></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/projects/inaciocyber_roxo.png" width="100%" alt="InacioCyber — purple theme"></td>
+<td width="50%"><img src="assets/projects/inaciocyber_amarelo.png" width="100%" alt="InacioCyber — amber theme"></td>
+</tr>
+<tr>
+<td colspan="2"><img src="assets/projects/inaciocyber_temas.png" width="100%" alt="InacioCyber — settings: 6 themes + character-rain, CRT flicker and VHS effects"></td>
+</tr>
+</table>
+<sub>Captured with the UI running standalone (backend offline), so some panels show loading states.</sub>
+</details>
+</div>
+
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
 <div align="center"><img src="assets/svg/tab_engineering.svg" alt="engineering.ts" width="92%"></div>

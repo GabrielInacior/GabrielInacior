@@ -123,7 +123,7 @@ cards = [
       tags=["Godot","Local LLM","Whisper","multiplayer"], img="labia_scene.png", jpeg=True),
  dict(key="inaciocyber", title="InacioCyber", kind="PENTEST AGENT", acc=GREEN, status="private",
       tagline="Autonomous, 100% local pentest agent · authorized targets only",
-      tags=["Python","Ollama","Qwen","Docker"], illu="terminal"),
+      tags=["Python","Ollama","Qwen","Docker"], img="inaciocyber_matrix.png", jpeg=False),
  dict(key="formataai", title="FormataAI", kind="VOICE → TEXT", acc=CYAN, status="repo",
       tagline="Whisper + GPT-4 turn your voice into formatted docs · TCC",
       tags=["Flutter","Whisper","GPT-4","Node"], illu="voice"),
