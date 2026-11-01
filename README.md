@@ -65,13 +65,15 @@ const stack = {
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://inaciodev.online"><img src="assets/projects/buscavagas.png" width="100%"></a>
+<img src="assets/projects/buscavagas.png" width="100%" alt="BuscaVagas dashboard">
+<img src="assets/projects/buscavagas_kanban.png" width="100%" alt="BuscaVagas kanban board">
 <b>BuscaVagas</b> — <sub>🔒 private</sub><br/>
 <sub>AI job-hunting engine. <b>Local Hugging Face embeddings</b> rank thousands of jobs by real fit; the best go to an LLM. Multi-source scraping, a <b>realtime</b> dashboard (WebSockets), tailored résumés + cover letters, and an apply-assist agent. Runs 100% local via Docker — works with no API key.</sub><br/>
 <sub><code>TypeScript</code> · <code>Nuxt</code> · <code>Fastify</code> · <code>BullMQ</code> · <code>HF Transformers</code> · <code>Postgres</code> · <code>Docker</code></sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://rumor.inaciodev.online"><img src="assets/projects/labia_logo.png" width="100%"></a>
+<img src="assets/projects/labia_scene.png" width="100%" alt="LÁBIA — neon nightclub scene with an AI-driven bouncer NPC">
+<img src="assets/projects/labia_logo.png" width="52%" alt="LÁBIA logo"><br/>
 <b>LÁBIA</b> — <sub>🔒 private</sub><br/>
 <sub>Co-op comedy <b>heist game you play with your real voice</b>. NPCs are driven by a <b>local LLM</b> + speech-to-text: they understand what you say, get annoyed, remember, and call security. Runs offline, in PT/EN/ES. The AI acts; the code rules.</sub><br/>
 <sub><code>Godot</code> · <code>Local LLM</code> · <code>Whisper/STT</code> · <code>multiplayer</code></sub>
@@ -135,29 +137,41 @@ security: [OAuth2, JWT, 2FA, rate limiting]
 
 <div align="center"><img src="assets/svg/tab_gamedev.svg" alt="gamedev.gd" width="92%"></div>
 
-> Applying the same engineering rigor to **Godot 4** — from 3D roguelites to multiplayer games with AI-driven characters.
+> Applying the same engineering rigor to **Godot 4** — pixel-art roguelites, voice-driven multiplayer, and a portfolio you can walk through.
+
+#### ⚔️ Fortress Chaos &nbsp;<sub>🔒 private · Alpha · Godot 4.7</sub>
+
+<sub>A 3D low-poly <b>roguelite</b> mixing base-building and tower-defense: raise the fortress, pick every stone, survive the chaos. Hundreds of units on screen, a campaign map with biomes and climates, build synergies and a progression shop.</sub>
 
 <table>
 <tr>
-<td width="50%" valign="top">
-<img src="assets/projects/fortresschaos.png" width="100%"><br/>
-<b>⚔️ Fortress Chaos</b> — <sub>🔒 private · Alpha</sub><br/>
-<sub>3D low-poly <b>roguelite</b> mixing base-building and tower-defense: raise the fortress, pick every stone, survive the chaos. Built in <b>Godot 4.7</b>.</sub>
-</td>
-<td width="50%" valign="top">
-<img src="assets/projects/fortresschaos_horda.png" width="100%"><br/>
-<sub>Hundreds of units on screen, campaign map with biomes, build synergies and a progression shop — real-time strategy in a stylized 3D world.</sub>
-</td>
+<td width="50%"><img src="assets/projects/fortresschaos.png" width="100%" alt="Fortress Chaos key art"></td>
+<td width="50%"><img src="assets/projects/fortresschaos_horda.png" width="100%" alt="Fortress Chaos — horde battle in the snow"></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-<a href="https://rumor.inaciodev.online"><img src="assets/projects/rumor_banner.png" width="100%"></a><br/>
-<b>🕵️ RUMOR</b> — <sub><a href="https://rumor.inaciodev.online">play live ↗</a></sub><br/>
-<sub>Comic-noir <b>multiplayer detective game</b> for the classroom: explore in 3D, interrogate suspects, connect the clues on a corkboard and crack the case together.</sub>
-</td>
-<td width="50%" valign="top">
-<a href="https://rumor.inaciodev.online"><img src="assets/projects/rumor_telas.png" width="100%"></a><br/>
-<sub>And my <b>portfolio is itself a 3D first-person noir game</b> (Godot, web-exported) — walk a neon city and meet the projects in person at <a href="https://inaciodev.online">inaciodev.online</a>.</sub>
+<td width="50%"><img src="assets/projects/fortresschaos_menu.png" width="100%" alt="Fortress Chaos main menu"></td>
+<td width="50%"><img src="assets/projects/fortresschaos_mapa.png" width="100%" alt="Fortress Chaos campaign map"></td>
+</tr>
+</table>
+
+#### 🕵️ RUMOR &nbsp;<sub><a href="https://rumor.inaciodev.online">play live ↗</a></sub>
+
+<sub>A comic-noir <b>multiplayer detective game</b> for the classroom: explore in 3D, interrogate suspects, connect the clues on a corkboard with red string, and crack the case together.</sub>
+
+<table>
+<tr>
+<td width="50%"><a href="https://rumor.inaciodev.online"><img src="assets/projects/rumor_banner.png" width="100%" alt="RUMOR key art"></a></td>
+<td width="50%"><a href="https://rumor.inaciodev.online"><img src="assets/projects/rumor_telas.png" width="100%" alt="RUMOR gameplay screens: explore, interrogate, connect clues, share"></a></td>
+</tr>
+</table>
+
+#### 🌃 inaciodev.online &nbsp;<sub>portfolio as a 3D noir game · WIP</sub>
+
+<table>
+<tr>
+<td width="62%"><img src="assets/projects/portfolio_elenco.png" width="100%" alt="portfolio-noir 3D character cast (work in progress)"></td>
+<td width="38%" valign="middle">
+<sub>My <b>portfolio is itself a first-person 3D noir game</b> (Godot, web-exported): walk a neon city and meet the projects in person. The 3D cast above is a work-in-progress render from the project. → <a href="https://inaciodev.online"><b>inaciodev.online</b></a></sub>
 </td>
 </tr>
 </table>
@@ -176,21 +190,7 @@ security: [OAuth2, JWT, 2FA, rate limiting]
 
 <div align="center"><img src="assets/svg/tab_stack.svg" alt="stack.json" width="92%"></div>
 
-<div align="center">
-
-**Languages & Frameworks**
-
-<img src="https://skillicons.dev/icons?i=ts,js,python,cs,dart,java,vue,nuxt,react,angular,flutter,tailwind&theme=dark" />
-
-**Backend · Data · Infra**
-
-<img src="https://skillicons.dev/icons?i=nodejs,fastify,express,fastapi,spring,dotnet,postgres,prisma,redis,rabbitmq,mongodb,supabase" />
-
-**Cloud · DevOps · Tools · AI**
-
-<img src="https://skillicons.dev/icons?i=aws,docker,linux,bash,githubactions,gitlab,git,godot,figma,tensorflow,pytorch,sklearn" />
-
-</div>
+<div align="center"><img src="assets/svg/stack_board.svg" alt="Tech stack — languages, frontend, backend, data, cloud/devops, AI, gamedev" width="92%"></div>
 
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
