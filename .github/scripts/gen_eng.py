@@ -47,8 +47,9 @@ def shell(w, h, label):
     s.append(f'<defs>{FONTDEF}'
       f'<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#14204a"/></pattern>'
       f'<linearGradient id="bd" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="{CYAN}"/><stop offset=".5" stop-color="{PURPLE}"/><stop offset="1" stop-color="{PINK}"/></linearGradient>'
+      f'<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1233"/><stop offset=".5" stop-color="#0d0a26"/><stop offset="1" stop-color="#0a1a28"/></linearGradient>'
       f'<filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2.6" flood-color="#000" flood-opacity="0.45"/></filter></defs>')
-    s.append(f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="16" fill="{BOARD}" stroke="url(#bd)" stroke-width="1.3"/>')
+    s.append(f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="16" fill="url(#bg)" stroke="url(#bd)" stroke-width="1.3"/>')
     s.append(f'<rect x="1" y="44" width="{w-2}" height="{h-45}" fill="url(#dots)" opacity="0.55"/>')
     s.append(titlebar(w, label))
     return s
@@ -123,8 +124,8 @@ def lock(x,y,c):
             f'<path d="M {x+2} {y+4} V {y+2.5} a 3.5 3.5 0 0 1 7 0 V {y+4}" fill="none" stroke="{c}" stroke-width="1.4"/>')
 
 def status(x,y,kind):
-    col={"clients":GREEN,"live":CYAN,"private":COMMENT}[kind]
-    txt={"clients":"paying clients","live":"live","private":"private"}[kind]
+    col={"clients":GREEN,"clients3":GREEN,"live":CYAN,"private":COMMENT}[kind]
+    txt={"clients":"paying clients","clients3":"3 paying clients","live":"live","private":"private"}[kind]
     w=int(len(txt)*CW)+40
     s=[f'<rect x="{x}" y="{y}" width="{w}" height="22" rx="11" fill="#0d1430" stroke="{col}" stroke-opacity="0.5"/>']
     if kind=="private": s.append(lock(x+12,y+5,col))
@@ -134,7 +135,7 @@ def status(x,y,kind):
 
 APPS=[
  ("BarberCore",ACCENT,"clients","Multi-tenant barber-shop SaaS: scheduling, WhatsApp, loyalty, Stripe billing",["Node","PostgreSQL","Stripe","AWS","CI/CD"]),
- ("Orbix · OrbixHub",PURPLE,"private","Shared auth + billing platform (OTP, tokens, finance) powering the SaaS",["Fastify","Auth","OTP","Billing"]),
+ ("OrbixHub",PURPLE,"clients3","Auth + billing platform on web, desktop and mobile (Flutter), serving 3 paying clients",["Flutter","Web","Desktop","Mobile","Billing"]),
  ("AirMessage",CYAN,"private","Cross-platform messaging SaaS: WhatsApp automation and client management",["Flutter","2FA","WhatsApp","AWS"]),
  ("ATN360",GREEN,"live","Institutional site and custom CMS, from scratch: SEO 100, i18n, AI blog",["Nuxt SSR","SEO 100","i18n","Gemini"]),
 ]

@@ -61,4 +61,15 @@ dv.append('<rect x="0" y="12" width="900" height="2" rx="1" fill="url(#dv)"/>')
 dv.append(f'<circle class="p" cx="450" cy="13" r="5" fill="{ACCENT}"/><circle cx="450" cy="13" r="2.4" fill="{NIGHT}"/>')
 dv.append('</svg>')
 (SVGD/"divider.svg").write_text("".join(dv),encoding="utf-8")
-print("assets written:", len(tabs)+1)
+
+# full-width glowing gradient band — page top/bottom accent (fakes a gradient backdrop edge)
+BW,BH=1200,18
+bn=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{BW}" height="{BH}" viewBox="0 0 {BW} {BH}" fill="none">']
+bn.append('<defs>'
+  f'<linearGradient id="bg1" x1="0" x2="1"><stop offset="0" stop-color="{CYAN}" stop-opacity="0"/><stop offset=".18" stop-color="{CYAN}"/><stop offset=".42" stop-color="#c7b3ff"/><stop offset=".64" stop-color="{PINK}"/><stop offset=".86" stop-color="{ACCENT}"/><stop offset="1" stop-color="{ACCENT}" stop-opacity="0"/></linearGradient>'
+  '<filter id="bgf" x="-3%" y="-200%" width="106%" height="500%"><feGaussianBlur stdDeviation="3.2"/></filter></defs>')
+bn.append(f'<rect x="0" y="7" width="{BW}" height="5" rx="2.5" fill="url(#bg1)" filter="url(#bgf)" opacity="0.75"/>')
+bn.append(f'<rect x="0" y="8" width="{BW}" height="2.6" rx="1.3" fill="url(#bg1)"/>')
+bn.append('</svg>')
+(SVGD/"band.svg").write_text("".join(bn),encoding="utf-8")
+print("assets written:", len(tabs)+2)

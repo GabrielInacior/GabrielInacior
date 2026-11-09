@@ -21,6 +21,8 @@
 
 </div>
 
+<div align="center"><img src="assets/svg/band.svg" width="100%"></div>
+
 <br/>
 
 <!-- ───────────────────────────── AI ───────────────────────────── -->
@@ -67,9 +69,9 @@ const toolbox = {
 - Shipped a **2-week sprint in 3 days**, and led a full **Vue → React** migration in **under a week, with zero production regressions**.
 - Owned **CI/CD** (GitLab CI), spec-driven development, and the full **QA → Staging → Production** path.
 
-<div align="center"><img src="assets/svg/prod_apps.svg" alt="Apps serving real users, BarberCore (paying clients), Orbix/OrbixHub, AirMessage (private), ATN360 (live)" width="92%"></div>
+<div align="center"><img src="assets/svg/prod_apps.svg" alt="Apps serving real users: BarberCore (paying clients), OrbixHub (3 paying clients, Flutter on web/desktop/mobile), AirMessage (private), ATN360 (live)" width="92%"></div>
 
-<sub>&nbsp;&nbsp;<b><a href="https://atn360.com.br">ATN360</a></b> is live. The others are private products (paying clients or internal platform).</sub>
+<sub>&nbsp;&nbsp;<b><a href="https://atn360.com.br">ATN360</a></b> is live; <b>BarberCore</b> and <b>OrbixHub</b> serve paying clients. <b>AirMessage</b> is a private product.</sub>
 
 <div align="center"><img src="assets/svg/divider.svg" width="80%"></div>
 
@@ -214,6 +216,8 @@ Beyond the featured builds, my account has **40+ repositories**: full-stack apps
 <a href="https://inaciodev.online"><img src="https://img.shields.io/badge/Portfolio-inaciodev.online-ffc83d?style=for-the-badge&labelColor=05091a&logo=vercel&logoColor=ffc83d"></a>
 <a href="https://www.linkedin.com/in/gabriel-in%C3%A1cio-rodrigues-silva-072029220/"><img src="https://img.shields.io/badge/LinkedIn-Gabriel_Inácio-5aaadc?style=for-the-badge&labelColor=05091a&logo=linkedin&logoColor=5aaadc"></a>
 <a href="mailto:gabrielinaciodev47@gmail.com"><img src="https://img.shields.io/badge/Email-gabrielinaciodev47-ff4fa3?style=for-the-badge&labelColor=05091a&logo=gmail&logoColor=ff4fa3"></a>
+
+<img src="assets/svg/band.svg" width="100%">
 
 <sub>⌁ <i>the model interprets · the code decides</i> ⌁</sub>
 

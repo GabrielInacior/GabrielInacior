@@ -61,8 +61,9 @@ def window(W,H,title,accent):
     s.append(f'<defs><style>{fonts_defs()}'
              f'.pop{{animation:pop .9s ease both}}@keyframes pop{{from{{opacity:0;transform:translateY(6px)}}to{{opacity:1}}}}'
              f'.bar{{animation:bg 1.2s cubic-bezier(.2,.9,.2,1) both}}@keyframes bg{{from{{transform:scaleX(0)}}to{{transform:scaleX(1)}}}}</style>'
-             f'<linearGradient id="bd" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="{CYAN}"/><stop offset="1" stop-color="{accent}"/></linearGradient></defs>')
-    s.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="14" fill="{EDITOR}" stroke="url(#bd)" stroke-width="1.3"/>')
+             f'<linearGradient id="bd" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="{CYAN}"/><stop offset="1" stop-color="{accent}"/></linearGradient>'
+             f'<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1233"/><stop offset=".5" stop-color="#0d0a26"/><stop offset="1" stop-color="#0a1a28"/></linearGradient></defs>')
+    s.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="14" fill="url(#bg)" stroke="url(#bd)" stroke-width="1.3"/>')
     s.append(f'<rect x="1" y="1" width="{W-2}" height="38" rx="14" fill="{TITLE}"/><rect x="1" y="26" width="{W-2}" height="14" fill="{TITLE}"/>')
     for i,c in enumerate(["#e2384f",ACCENT,GREEN]): s.append(f'<circle cx="{26+i*20}" cy="20" r="5.5" fill="{c}"/>')
     s.append(f'<text x="{W/2}" y="25" text-anchor="middle" font-family="JBM,monospace" font-size="13.5" fill="{MUTED}">{esc(title)}</text>')

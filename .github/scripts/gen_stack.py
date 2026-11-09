@@ -57,9 +57,10 @@ s.append(f'''<defs><style>
 </style>
 <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#14204a"/></pattern>
 <linearGradient id="bd" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="{CYAN}"/><stop offset=".5" stop-color="{PURPLE}"/><stop offset="1" stop-color="{PINK}"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1233"/><stop offset=".5" stop-color="#0d0a26"/><stop offset="1" stop-color="#0a1a28"/></linearGradient>
 <filter id="sh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="2" stdDeviation="2.4" flood-color="#000" flood-opacity="0.45"/></filter></defs>''')
 # board
-s.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="14" fill="{BOARD}" stroke="url(#bd)" stroke-width="1.3"/>')
+s.append(f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="14" fill="url(#bg)" stroke="url(#bd)" stroke-width="1.3"/>')
 s.append(f'<rect x="1" y="44" width="{W-2}" height="{H-45}" fill="url(#dots)" opacity="0.6"/>')
 # title bar
 s.append(f'<rect x="1" y="1" width="{W-2}" height="44" rx="14" fill="{TITLE}"/><rect x="1" y="30" width="{W-2}" height="15" fill="{TITLE}"/>')

@@ -81,10 +81,11 @@ def card(key, title, kind, acc, tagline, tags, status, img=None, jpeg=True, illu
     s.append(f'<defs><style>{FONTDEF}</style>'
              f'<linearGradient id="g{key}" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="{acc}"/><stop offset=".55" stop-color="#7b86ff"/><stop offset="1" stop-color="{PINK}"/></linearGradient>'
              f'<linearGradient id="t{key}" x1="0" x2="1"><stop offset="0" stop-color="{acc}"/><stop offset="1" stop-color="#fff4d6"/></linearGradient>'
+             f'<linearGradient id="bgc{key}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1233"/><stop offset=".5" stop-color="#0c0a22"/><stop offset="1" stop-color="#0a1a26"/></linearGradient>'
              f'<clipPath id="ic{key}"><rect x="{ix}" y="{iy}" width="{IW}" height="{ih}" rx="10"/></clipPath>'
              f'<filter id="sh{key}" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#000" flood-opacity="0.5"/></filter></defs>')
     # panel
-    s.append(f'<rect x="2" y="2" width="{W-4}" height="{H-4}" rx="16" fill="{PANEL}" stroke="url(#g{key})" stroke-width="1.5"/>')
+    s.append(f'<rect x="2" y="2" width="{W-4}" height="{H-4}" rx="16" fill="url(#bgc{key})" stroke="url(#g{key})" stroke-width="1.5"/>')
     s.append(f'<rect x="2" y="2" width="{W-4}" height="92" rx="16" fill="url(#g{key})" opacity="0.06"/>')
     # ornate corners
     s.append(corner(14,14,False,False,acc)+corner(W-14,14,True,False,acc)+corner(14,H-14,False,True,acc)+corner(W-14,H-14,True,True,acc))
